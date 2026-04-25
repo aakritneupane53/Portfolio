@@ -22,6 +22,7 @@ body {
   backdrop-filter: blur(10px);
   border-radius: 4rem;
   padding: 1rem 2.5rem;
+  z-index: 1000;
 }
 .nav-bar {
   display: flex;
@@ -153,7 +154,6 @@ main {
   transform: translateY(-2px);
 }
 
-/* ── Projects Section ─────────────────────────────────────── */
 #projects {
   min-height: 100vh;
   width: 100%;
@@ -214,9 +214,8 @@ main {
 
 .project-image {
   width: 100%;
-  aspect-ratio: 16 / 9;
   overflow: hidden;
-  background: #f3f4f6;
+  /* background: #f3f4f6; */
 }
 
 .project-image img {
